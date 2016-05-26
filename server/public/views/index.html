@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pet Finder Challenge</title>
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/ang_app.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/DogsController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/CatsController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/RabbitsController.js"></script>
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+</head>
+
+<body ng-app="myApp">
+  <header ng-include="'/views/templates/header.html'" class="jumbotron text-center"></header>
+
+  <div class="navigation" ng-include="'/views/templates/nav.html'"></div>
+
+  <main ng-view></main>
+
+  <footer ng-include="'/views/templates/footer.html'"></footer>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "basic_api_lecture",
+  "version": "1.0.0",
+  "description": "PetFinder API implmentations in jQuery and Angular. You need your own API Key!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Scott Bromander",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jquery": "^2.2.4",
+    "path": "^0.11.14"
+  }
+}
